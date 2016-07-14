@@ -25,4 +25,4 @@ require_once 'proxy.php';
  *                 a function [plugin name]_init() must be present.
  * @param $plugin_filename. optional plugin filename instead of [plugin_name].plugin.php
  */
-proxify('https', 'www.facebook.com');
+proxify('https', 'www.google.com.hk');
