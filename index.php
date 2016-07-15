@@ -25,4 +25,4 @@ require_once 'proxy.php';
  *                 a function [plugin name]_init() must be present.
  * @param $plugin_filename. optional plugin filename instead of [plugin_name].plugin.php
  */
-proxify('https', 'mobile.twitter.com/?lang=zh-cn');
+proxify('https', 'mobile.twitter.com/?lang=zh-cn/session/new');
