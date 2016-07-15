@@ -17,7 +17,7 @@ function proxy ($url) {
         CURLOPT_URL => $url,
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_FOLLOWLOCATION => true,
-        CURLOPT_USERAGENT => $_SERVER['HTTP_USER_AGENT'],
+        CURLOPT_USERAGENT => 'Mozilla/5.0 (MeeGo; NokiaN9) AppleWebKit/534.13 (KHTML, like Gecko) NokiaBrowser/8.5.0 Mobile Safari/534.13',
         CURLOPT_COOKIE => getClientCookies(),
 
         // required for cookies bridging
